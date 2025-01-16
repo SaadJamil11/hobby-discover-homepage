@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Unique Hobbies</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin: 0 1rem;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 1rem;
+            background-color: #f4f4f4;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero .btn {
+            padding: 0.8rem 1.5rem;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .categories, .featured, .how-it-works {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .category-list, .hobby-grid {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .category-item, .hobby-item {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            width: 200px;
+        }
+
+        .hobby-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        footer .social-links a {
+            color: #fff;
+            margin: 0 0.5rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">HobbyDiscover</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#legal">Legal Advice</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Unleash Your Potential with Unique and Legal Hobbies!</h1>
+        <p>Find hobbies you never thought possible, achieve milestones, and get legal advice every step of the way.</p>
+        <a href="#get-started" class="btn">Get Started</a>
+    </section>
+
+    <section class="categories" id="hobbies">
+        <h2>Explore Hobby Categories</h2>
+        <div class="category-list">
+            <div class="category-item">
+                <h3>Creative</h3>
+                <p>Unleash your inner artist with hands-on activities.</p>
+            </div>
+            <div class="category-item">
+                <h3>Physical</h3>
+                <p>Get active and discover new ways to stay fit and have fun.</p>
+            </div>
+            <div class="category-item">
+                <h3>Mental</h3>
+                <p>Challenge your mind with puzzles, strategies, and games.</p>
+            </div>
+            <div class="category-item">
+                <h3>Social</h3>
+                <p>Connect with others through engaging and shared hobbies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <h2>Out-of-the-Box Hobbies</h2>
+        <div class="hobby-grid">
+            <div class="hobby-item">
+                <img src="hobby1.jpg" alt="Hobby Image">
+                <h3>Underwater Basket Weaving</h3>
+                <p>A quirky way to combine craft and adventure.</p>
+            </div>
+            <div class="hobby-item">
+                <img src="hobby2.jpg" alt="Hobby Image">
+                <h3>Drone Racing</h3>
+                <p>Experience the thrill of high-speed drone competitions.</p>
+            </div>
+            <div class="hobby-item">
+                <img src="hobby3.jpg" alt="Hobby Image">
+                <h3>Extreme Ironing</h3>
+                <p>Iron clothes in the most daring places.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="legal">
+        <h2>How It Works</h2>
+        <ol>
+            <li>Find a hobby that excites you.</li>
+            <li>Follow our guides to get started.</li>
+            <li>Get legal advice to stay compliant.</li>
+            <li>Achieve milestones and share your progress!</li>
+        </ol>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 HobbyDiscover. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
